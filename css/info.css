@@ -6,10 +6,13 @@
 #info {
   background: #757575;
   overflow-x: hidden;
+
 }
 
 #info .container {
   margin-top: 10%;
+ margin-left: 50%;
+  margin-right: 50%;
   perspective: 800px;
   /* Styling */
   color: #fff;
@@ -19,11 +22,13 @@
   /* Center it */
   position: relative;
   top: 70%;
-left: 50%;
+
   transform: translate(-50%, -50%);
 }
 
 #info .card {
+      margin-left: auto;
+  margin-right: auto;
   /* Styling */
   width: 700px;
   height: 400px;
@@ -32,8 +37,7 @@ left: 50%;
   /* Card flipping effects */
   transform-style: preserve-3d;
   transition: 0.6s;
-  margin-left: auto;
-  margin-right: auto;
+
 
 }
 
@@ -44,6 +48,7 @@ left: 50%;
   backface-visibility: hidden;
   /* Fix Chrome rendering bug */
   transform: rotate(0deg) translateZ(1px);
+  
 }
 
 /* Flip the card on hover */
