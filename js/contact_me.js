@@ -7,7 +7,7 @@ document.getElementById('sendMessageButton').addEventListener('click', (event) =
   Email.send({
     Host: "smtp.elasticemail.com",
     Username: "jetzable@gmail.com",
-    Password: "4c685346 - 2bb2 - 4d20 - 8706 - 805d45f1e7cc",
+    Password: "4c685346-2bb2-4d20-8706-805d45f1e7cc",
     To: 'jgarayneza@live.com.mx',
     From: `${contactEmail}`,
     Subject: `${contactName} Teléfono: ${contactPhone}`,
