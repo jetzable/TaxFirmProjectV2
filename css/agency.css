@@ -507,7 +507,7 @@ header.masthead .intro-text .intro-heading {
   .timeline > li .timeline-image {
     left: 50%;
     width: 100px;
-    height: 100px;
+    height: 150px;
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
@@ -686,3 +686,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 
+.img-timeline{
+  height: 80% !important
+}
